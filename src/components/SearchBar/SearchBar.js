@@ -1,6 +1,7 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import './SearchBar.css';
-import { render } from '@testing-library/react';
+
 
 
 
@@ -55,7 +56,7 @@ class SearchBar extends React.Component {
 
     render() {
         return (
-            <div className="SearchBar" searchYelp={this.searchYelp}>
+            <div className="SearchBar">
   <div className="SearchBar-sort-options">
     <ul>
       {this.renderSortByOptions()}
